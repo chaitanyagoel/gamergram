@@ -1,0 +1,49 @@
+.contributors {
+   text-align: center;
+   color: var(--primary-text);
+   font-size: 35px;
+   font-weight: bold;
+}
+
+.Pic {
+   height: 140px;
+   object-fit: contain;
+}
+
+.Main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.Sub {
+   border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+   height: 270px;
+   width: 200px;
+   margin: 20px;
+   padding: 6px;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Sub p {
+   font-size: 20px;
+   text-align: center;
+   margin: auto;
+   font-weight: bold;
+}
+
+.Sub button{
+   width: 150px;
+   margin: auto;
+   background: #184d47;
+}
+
+@media screen and (max-width: 480px) {
+   .contributors p {
+      font-size: 30px;
+   }
+}
